@@ -10,8 +10,6 @@ import Search from "../../../screens/search/search";
 import Setting from "../../../screens/setting/Setting";
 import Notify from "../../../screens/notification/notify";
 
-import Articles from '../../../components/Test'
-import Articles2 from '../../../components/test2'
 import Product from '../../../screens/detail/detailProduct'
 import Details_Activity from '../../../components/Details_Activity';
 import HomeScreen from '../../../screens/account/HomeScreen';
@@ -23,9 +21,7 @@ import Dashboard from '../../../screens/account/Dashboard';
 
 const ChatComponentTab = createStackNavigator(
   {
-    'C': Product,
-    'Chat': Articles,
-    'Article': Articles2
+    'Chat': Chat,
   },
   {
     defaultNavigationOptions: {
